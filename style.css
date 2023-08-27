@@ -166,13 +166,21 @@ color: var(--Very-Dark-Blue);
 }
 .hero-text1{
     margin-left: 18.5% !important;
-    font-size: 8px;
-    padding: 1%;
+    font-size: 7px;
+    padding: 0.5%;
+    border-radius: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: -0.4%;
+    position: absolute;
+
 }
 .hero-text2{
-    margin-left: 50% !important;
-    font-size: 7px;
+    margin-left: 47% !important;
+    font-size: 8px;
+    margin: 9%;
 }
+
 h1{
     margin-left: 40% !important;
     height: 70px;
@@ -217,6 +225,7 @@ main{
 .preview{
     margin-top: -5%;
     margin-left: 30%;
+    font-weight: 400;
 }
 .cto-btn{
     margin-top: -3% !important;
