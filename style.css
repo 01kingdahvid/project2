@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    ;
+}
+body{
+    max-width: 1440px;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden !important;
+    
+}
+:root{
+    --Very-Dark-Blue: hsl(230, 29%, 20%);
+--Dark-Grayish-Blue: hsl(230, 11%, 40%);
+--Grayish-Blue: hsl(231, 7%, 65%);
+--Light-Grayish-Blue: hsl(207, 33%, 95%);
+/* primary color */
+--Red: hsl(0, 100%, 68%);
+}
+
+.nav-btn:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.can-navbar{
+ height: 4vh;
+ background-color: white; 
+}
+.can-items, .can-items a{
+    text-align: center;
+    margin-right: 1.8rem;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--Very-Dark-Blue);
+  line-height: 4rem;
+
+}
+
+.login-bar button{
+    color: var(--Grayish-Blue);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-right: 1.8rem;
+}
+
+
+.hero-text1{
+    margin: -1.3% 7%;
+    position: absolute;
+    box-shadow: black;
+    color: var(--Light-Grayish-Blue);
+    background-color: var(--Very-Dark-Blue);
+    padding: 1.4%;
+    border-radius: 0.9rem;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.hero-text2{
+    margin: 11% 22%;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    color: var(--Grayish-Blue);
+}
+
+.hero-content2, .hero-contenth1 h1{
+    font-size: 2.0rem;
+    font-weight: 800;
+    margin: 5% 7%;
+    color: var(--Very-Dark-Blue);
+}
+.hero-text3{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-break: auto;
+    margin: 5% 7%;
+    color: var(--Very-Dark-Blue);
+}
+
+.cto-btn{
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    margin-left: -0.4%;
+
+    line-height: 10%;
+}
+
+.cto-btn:hover{
+    background-color: var(--Red) !important;
+    color: var(--Light-Grayish-Blue) !important;
+}
+
+.preview{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -9%;
+    margin-left: 45%;
+    color: var(--Grayish-Blue);
+}
+
+
+
+/* Media query */
+@media (min-width: 768px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .hero-image-desktop{
+
+        display: none;
+}
+ul.navbar-nav{
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Very-Dark-Blue) !important;
+    margin-left: 58%;
+}
+.nav-login button{
+    font-size: 12px;
+    font-weight: 800 !important;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Grayish-Blue);
+}
+.nav-login{
+    margin-right: 17%;
+    margin-top: -0.1%;
+}
+
+/* hero images */
+.hero-image-desktop{
+    display: block !important;
+    width: 100%;
+    margin-left: 48%;
+    
+}
+.hero-text1{
+    margin-left: 18.5% !important;
+    font-size: 8px;
+    padding: 1%;
+}
+.hero-text2{
+    margin-left: 50% !important;
+    font-size: 7px;
+}
+h1{
+    margin-left: 40% !important;
+    height: 70px;
+}
+.hero-text3 p{
+    margin-left: 38.5% !important;
+    font-size: 18px;
+    font-weight: 700;
+    line-break: auto;
+    color: var(--Grayish-Blue);
+    height: 90px !important;
+}
+
+.schedule, .preview{
+    margin-left: 38.5% !important;
+    
+}
+.preview{
+    margin-top: -8% !important;
+}
+
+section{
+    width: 46%;
+    height: 5vh;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    align-items: center;
+    background-color: var(--White);
+   border-radius: 15px;
+   margin-top: -35%;
+}
+main{
+   
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+.preview{
+    margin-top: -5%;
+    margin-left: 30%;
+}
+.cto-btn{
+    margin-top: -3% !important;
+    font-size: 10px !important;
+    padding: 5%;
+}
+
+
+footer{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
