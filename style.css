@@ -137,11 +137,19 @@ ul.navbar-nav{
     color: var(--Very-Dark-Blue) !important;
     margin-left: 58%;
 }
+.nav-item:hover{
+text-decoration: underline;
+color: var(--Very-Dark-Blue);
+}
 .nav-login button{
     font-size: 12px;
     font-weight: 800 !important;
     display: flex;
     justify-content: space-between;
+    color: var(--Grayish-Blue);
+}
+.nav-login button:hover{
+    text-decoration: underline;
     color: var(--Grayish-Blue);
 }
 .nav-login{
@@ -181,6 +189,9 @@ h1{
 .schedule, .preview{
     margin-left: 38.5% !important;
     
+}
+.schedule:hover{
+    opacity: 70%;
 }
 .preview{
     margin-top: -8% !important;
