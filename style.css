@@ -190,7 +190,7 @@ h1{
     margin-left: 38.5% !important;
     
 }
-.schedule:hover{
+.schedule button:hover{
     opacity: 70%;
 }
 .preview{
