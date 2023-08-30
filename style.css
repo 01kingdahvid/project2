@@ -81,12 +81,17 @@ body{
     color: var(--Grayish-Blue);
 }
 
+main{
+    overflow-x: hidden; 
+}
+
 .hero-content2, .hero-contenth1 h1{
     font-size: 2.0rem;
     font-weight: 800;
     margin: 5% 7%;
     color: var(--Very-Dark-Blue);
 }
+
 .hero-text3{
     font-size: 14px;
     font-weight: 700;
